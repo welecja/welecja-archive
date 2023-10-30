@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/* table, caption, tbody, tfoot, thead, tr, th, td, */
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	/*list-style: none;*/
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* koniec reset */
+
+body {
+   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	text-align: left;
+	background-color: #e8e6e1;
+	color: #4f4f4f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.4em;
+	color:#377319;
+	font-weight:bold;
+}
+
+p, li {
+	line-height: 1.7em;
+   font-size: 14px;
+	color: #4f4f4f;
+}
+
+ol {
+   list-style-type:numeric;
+}
+
+ol, ul {
+   margin-left:25px;
+}
+
+p a, li a {
+	text-decoration: none;
+	color: #377319;
+}
+
+p a:hover, p a.active, li a:hover, li a.active {
+	text-decoration: underline;
+	
+}
+
+a.czysty:hover {
+   text-decoration: none;
+	color: black;
+}
+
+hr {
+   margin-top:15px;
+   margin-bottom:20px;
+   color:#3F3F3F;
+   border:0;
+   border-top:1px solid #3F3F3F;
+   
+}
+/*
+Piotrka klasy
+*/
+
+.znacznikiStronZwykle {
+   height: 15px;
+   margin-left: 20px;
+   font-size:13px;
+   float: right;
+}
+
+.znacznikiStronZwykle span {
+   display:inline-block;
+   float:right;
+}
+
+.znacznikiStronZwykle p.napis {
+   line-height: 15px;
+   display:inline-block;
+   padding-left:5px;
+   padding-right:5px;
+   height:15px;
+   float:right;
+   text-align:center;
+   font-size:13px;
+}
+
+.znacznikiStronZwykle a.tag {
+   line-height: 15px;
+   display:inline-block;
+   float:right;
+   padding-left:5px;
+   padding-right:5px;
+   height: 18px;
+   color: #4D4D4D;
+   text-align:center;
+   font-weight: normal;
+   text-decoration:none;
+}
+
+.znacznikiStronZwykle span {
+   line-height: 15px;
+}
+
+.znacznikiStronZwykle a.active, .znacznikiStronZwykle a.tag:hover {
+   background-color: #377319;
+   font-weight: normal;
+   color: white;
+}
+
+.button {
+	color:white;
+   background:rgb(0,156,226);
+   border-width:0px;
+   font-family: Helvetica, Arial, sans-serif;
+   padding:5px;
+   padding-left:15px;
+   padding-right:15px;
+   cursor:pointer;
+}
+
+.buttonSmall {
+	color:white;
+   background:rgb(0,156,226);
+   border-width:0px;
+   font-family: Helvetica, Arial, sans-serif;
+   padding:2px;
+   cursor:pointer;
+}
+
+.button:hover, .buttonSmall:hover {
+	background-color: grey;
+}
+
+.dragged {
+	cursor: all-scroll !important;
+	border-color: #cc0000 !important;
+	z-index: 300 !important;
+	filter: alpha(opacity=60);-moz-opacity:.60;opacity:.60;
+}
+
+.chosen {
+	background: rgb(194,194,194);
+}
+
+span.napisNadPolem {
+   font-family:Verdana;
+   line-height: 10px;
+   color: #4a4a4a;
+   font-size: 9px;
+   padding-bottom:2px;
+   display:block;
+}
+
+.errorDiv {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+	background-color: #ec0200;
+	font-weight: bold;
+}
+
+.confirmDiv {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+	background-color: #009245;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
