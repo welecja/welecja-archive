@@ -9,7 +9,7 @@ This is the public repo for the Welecja.pl website.
 If you're looking to contribute to the `welecja` project, here's a step-by-step guide on how to do it using GitHub's Pull Request feature:
 
 1. **Fork the Repository**
-   - Go to the main page of the repository: [https://github.com/0xkkonrad/welecja/](https://github.com/0xkkonrad/welecja/)
+   - Go to the main page of the repository
    - In the top right corner of the page, click on the **Fork** button.
 
 2. **Clone Your Fork**
